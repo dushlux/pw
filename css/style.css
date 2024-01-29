@@ -1,0 +1,117 @@
+:root {
+    --color-primary: #FFF;
+    --color-primary-background: #000;
+    --ui-font-family-gotham-pro: GothamPro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --ui-footer-font-color: #FFF;
+    --ui-footer-background: #646464;
+    --ui-footer-desktop-font-size: 16px;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('/fonts/GothamPro.eot');
+    src: url('/fonts/GothamPro.eot?#iefix') format('embedded-opentype'), url('/fonts/GothamPro.woff') format('woff'), url('/fonts/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('/fonts/GothaProBol.eot');
+    src: url('/fonts/GothaProBol.eot') format('embedded-opentype'), url('/fonts/GothaProBol.woff2') format('woff2'), url('/fonts/GothaProBol.woff') format('woff'), url('/fonts/GothaProBol.ttf') format('truetype'), url('/fonts/GothaProBol.svg#GothaProBol') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('/GothaProMed.eot');
+    src: url('/fonts/GothaProMed.eot') format('embedded-opentype'), url('/fonts/GothaProMed.woff2') format('woff2'), url('/fonts/GothaProMed.woff') format('woff'), url('/fonts/GothaProMed.ttf') format('truetype'), url('/fonts/GothaProMed.svg#GothaProMed') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('/fonts/GothaProBla.eot');
+    src: url('/fonts/GothaProBla.eot') format('embedded-opentype'), url('/fonts/GothaProBla.woff2') format('woff2'), url('/fonts/GothaProBla.woff') format('woff'), url('/fonts/GothaProBla.ttf') format('truetype'), url('/fonts/GothaProBla.svg#GothaProBla') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap
+}
+
+
+/* Reset rules */
+
+* {
+    font-family: var(--ui-font-family-gotham-pro);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: inline-block;
+}
+
+ul>li {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.header-container {}
+
+header .logo-container {
+    width: 200px;
+}
+
+header .topmenu {
+    display: flex;
+}
+
+header .menu-item {
+    margin-left: 20px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: var(--ui-footer-background);
+    color: #FFF;
+    font-size: var(--ui-footer-desktop-font-size);
+    line-height: 45px;
+}
+
+footer a {
+    color: var(--ui-footer-font-color);
+}
+
+.footer-container {
+    padding: 100px 40px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.footer-column {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 1 25%;
+}
+
+footer .logo {
+    fill: white;
+}
+
+footer img.social-icon {
+    width: 36px;
+    height: 36px;
+}
+
+.social-item {}
