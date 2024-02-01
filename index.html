@@ -1,111 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
     <title>PW - main page</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mob.css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
-
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="header-container">
-                <a class="logo-container" href="#">
-                    <img class="logo" src="/images/logo.svg" alt="Premium Wellensss">
-                </a>
+	<div id="all">
+		<header>
+			<a class="logo" href="/"></a>
+			<div class="mainmenu">
+				<ul>
+					<li><a href="/">Фотогалерея</a></li>
+					<li><a href="/">Сантехника</a></li>
+					<li><a href="/">Мозаика</a></li>
+					<li><a href="/">Натуральный камень</a></li>
+					<li><a href="/">Плитка</a></li>
+					<li><a href="/">Свет</a></li>
+					<li><a href="/">Контакты</a></li>
+				</ul>
+			</div>
+			<div id="langchange">
+				<span data-lang="ru">RU</span><span data-lang="en" class="noactive">EN</span>
+			</div>
+		</header>
+		<div id="wrap">
 
-                <ul class="topmenu">
-                    <li class="menu-item">Фотогалерея</li>
-                    <li class="menu-item">Сантехника</li>
-                    <li class="menu-item">Мозаика</li>
-                    <li class="menu-item">Натуральный камень</li>
-                    <li class="menu-item">Плитка</li>
-                    <li class="menu-item">Свет</li>
-                </ul>
-                <ul class="lang-menu">
-                    <li class="menu-item active">EN</li>
-                    <li class="menu-item">RU</li>
-                </ul>
-
-            </div>
-        </header>
-        <main class="page">
-            <section id="title">
-                <h1>Hello everybody</h1>
-            </section>
-            <section id="about">
-                <h2>Презентация - о шоу-руме</h2>
-            </section>
-            <section id="goods">
-                <h2>Товары в шоу-руме</h2>
-            </section>
-            <section id="info">
-                <h2>Товары в шоу-руме</h2>
-            </section>
-
-            <section id="partners">
-                <h2>Сотрудничаем с дизайнерами</h2>
-            </section>
-            <section id="about-us">
-                <h2>О нас пишут</h2>
-            </section>
-            <section id="brands">
-                <h2>Представлено в шоу-руме</h2>
-            </section>
-            <section id="brands-ribbon">
-                <h2>Карусель с брендами</h2>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="footer-container">
-                <div class="footer-column">
-                    <div class="contacts">
-                        <a class="footer__phones" href="tel: +74959252633">+7 (495) 925-26-33</a>
-                        <div class="footer__time">
-                            пн-пт 10:00-19:00 <br/> сб, вс - по договоренности
-                        </div>
-                        <a class="footer__phones" href="mailto: info@premiumwellness.ru">info@premiumwellness.ru</a>
-                    </div>
-                    <a class="logo-container" href="#">
-                        <img class="logo" src="/images/logo.svg" alt="Premium Wellensss">
-                    </a>
-                </div>
-                <div class="footer-column">
-                    <h4 class="footer-column-title">Меню</h4>
-                    <ul class="footer-menu-column">
-                        <li class="footer__menu-item">Сантехника</li>
-                        <li class="footer__menu-item">Плитка</li>
-                        <li class="footer__menu-item">Мрамор</li>
-                        <li class="footer__menu-item">Натуральный камень</li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4 class="footer-column-title">Компания</h4>
-                    <ul class="footer-menu-column">
-                        <li class="footer__menu-item">Бренды</li>
-                        <li class="footer__menu-item">Фотогалерея</li>
-                        <li class="footer__menu-item">О нас</li>
-                        <li class="footer__menu-item">Контакты</li>
-                    </ul>
-
-                </div>
-                <div class="footer-column">
-                    <h4 class="footer-column-title">Подписывайтесь</h4>
-                    <div class="social">
-                        <a class="social-item" href="#" title="Telegram"><img class="social-icon" src="/images/social/telegram.jpg" alt="Telegram"></a>
-                        <a class="social-item" href="#" title="Telegram"><img class="social-icon" src="/images/social/telegram.jpg" alt="Telegram"></a>
-                        <a class="social-item" href="#" title="Telegram"><img class="social-icon" src="/images/social/telegram.jpg" alt="Telegram"></a>
-                    </div>
-                </div>
-
-            </div>
-        </footer>
-    </div>
-
-
-
+		</div>
+		<footer>
+			<div class="footdata">
+				<a class="logo" href="/"></a>
+				<span>Ходынский бульвар 20А, <br />вход со стороны ТЦ Авиапарк</span>
+				<a href="tel:+74959252633">+7 (495) 925-26-33</a>
+				<span>пн-пт 10:00-19:00<br />сб, вс - по договоренности</span>
+				<a href="mailto:info@premiumwellness.ru">info@premiumwellness.ru</a>
+				<a class="politico" href="/">Политика конфиденциальности</a>
+			</div>
+			<div class="footmenu">
+				<ul>
+					<li class="title-menu">Меню</li>
+					<li><a href="">Сантехника</a></li>
+					<li><a href="">Мозаика</a></li>
+					<li><a href="">Натуральный камень</a></li>
+					<li><a href="">Плитка</a></li>
+					<li><a href="">Свет</a></li>
+					<li><a href="">Керамогранит</a></li>
+				</ul>
+			</div>
+			<div class="footmenu">	
+				<ul>
+					<li class="title-menu">Компания</li>
+					<li><a href="">Бренды</a></li>
+					<li><a href="">Контакты</a></li>
+					<li><a href="">О Premium Wellness</a></li>
+					<li><a href="">Новости</a></li>
+					<li><a href="">Профессионалам</a></li>
+					<li><a href="">DUSHLUX</a></li>
+				</ul>
+			</div>
+			<div class="footsocial">
+				<span class="title-menu">Подписывайтесь</span>
+				<div>
+					<a class="icon_in" href=""></a>
+					<a class="icon_vk" href=""></a>
+					<a class="icon_yt" href=""></a>
+					<a class="icon_tg" href=""></a>
+				</div>
+				<a class="visit_feed" href=""><span>Забронировать визит</span></a>
+			</div>
+		</footer>
+	</div>
 </body>
-
 </html>
